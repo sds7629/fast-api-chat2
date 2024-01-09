@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapi-chat"
+version = "0.1.0"
+description = ""
+authors = ["sds7629 <sds7629@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.108.0"
+websockets = "^12.0"
+uvicorn = {extras = ["standard"], version = "^0.25.0"}
+jinja2 = "^3.1.2"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
